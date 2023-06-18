@@ -1,0 +1,202 @@
+body{
+    margin:0;
+}
+
+
+.bg{
+    background-color: #252525;
+}
+
+.maintxt{
+    font-family: consolas;
+    color: gainsboro;
+    font-size:1.1rem;
+
+}
+
+.first{
+    text-align: center;
+    width:45%;
+    margin: 15% auto 0 auto;
+}
+
+.firstbold{
+    color:indianred;
+}
+
+.form{
+    text-align:center;
+    
+    width: 45%;
+    margin: 5% auto;
+}
+
+
+.mainanchor{
+    color:forestgreen;
+    text-decoration: none;
+}
+
+.mainanchor:hover{
+    color:lemonchiffon;
+}
+
+.mainanchor:visited{
+    color:forestgreen;
+
+}
+
+.mainanchor:active{
+    color:forestgreen;
+}
+
+#link{
+    margin: 10% auto;
+}
+
+
+
+nav{
+    background-color: #252525;
+    margin:0;
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    border-bottom: 3px solid ghostwhite
+    
+}
+
+nav ul li{
+    margin-right:20px;
+    
+    
+}
+
+
+.nav1{
+    display: block;
+    color:ghostwhite;
+    font-family:consolas;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 1.2rem;
+}
+
+
+.nav1:hover{
+    background-color:#3d3d3d;
+}
+
+.bg2{
+    background-color: #A44A3F;
+}
+
+.name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:80px;
+    font-size:2rem;
+    padding-bottom:0px;
+
+
+    }
+
+.firstname{
+    text-align: left;
+    color:#F6F4D2;
+}
+
+.lastname{
+    text-align: center;
+    color:#D4E09B;
+}
+
+h1{
+    margin:0;
+}
+
+
+.txt{
+    color:#F6F4D2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:100px;
+    padding-top:10px;
+    margin-top:0;
+    
+    font-size:1.4rem;
+
+}
+
+
+.flex-container{
+    display: flex;
+}
+
+.flexleft{
+    
+    padding-right:0;
+    width:50%;
+}
+
+.flexright{
+
+    width:50%;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.pfp{
+    height:400px;
+    width: 400px;
+    outline: 2px solid #D4E09B;
+    outline-offset: -10px;
+    
+}
+
+.pfpbg{
+    height:400px;
+    width:400px;
+    z-index: 1;
+    left: 80px;
+    top:-20px;
+    position: relative;
+    background-color: #D4E09B;
+}
+
+.pfpcontainer{
+    z-index: 2;
+   top:-380px;
+   left:-20px;
+    position: relative;
+}
+
+.work{
+    margin-top:30px;
+}
+
+.worklink{
+    color:#D4E09B;
+    text-decoration: none;
+}
+
+.worklink:hover{
+    color:#CBDFBD
+}
+
+.bg3{
+    background-color: #A6C48A;
+}
+
+.heading{
+    color:#678D58;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:50px;
+}
+
+
+
